@@ -22,7 +22,7 @@ for(let i=0;i<144;i++)
 	sp_player.anchor.set(0.5);
 
 	sp_player.x=app.renderer.width*0.1+i*0.5 ;
-	sp_player.y=app.renderer.height/2;
+	sp_player.y=app.renderer.height*0.2;
 	 
  	 
 	 cards.push(sp_player);
@@ -37,8 +37,8 @@ let timer=0;
 let gap=60;
 
 var fps = new PIXI.Text('FPS : ' );
-fps.x = 50;
-fps.y = 50;
+fps.x = 0;
+fps.y = 0;
 fps.style={fill: 0xffff00};
 
 containerQ2.addChild(fps);
