@@ -22,7 +22,7 @@ for(let i=0;i<144;i++)
 	sp_player.anchor.set(0.5);
 
 	sp_player.x=app.renderer.width*0.1+i*0.5 ;
-	sp_player.y=app.renderer.height*0.2;
+	sp_player.y=app.renderer.height/2;
 	 
  	 
 	 cards.push(sp_player);
